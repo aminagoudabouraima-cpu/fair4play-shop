@@ -1,6 +1,4 @@
-const PAYPAL_USERNAME = "Fair4playAKgmbhspar"; 
-// IMPORTANT: check if your real PayPal.me link is paypal.me/Fair4playAKgmbhspar.
-// If it is different, replace the username above.
+const PAYPAL_USERNAME = "Fair4playAKgmbhspar";
 
 const products = [
   {
@@ -30,7 +28,7 @@ let cart = [];
 
 function renderProducts(){
   const wrap = document.getElementById("products");
-  wrap.innerHTML = products.map((p, index) => `
+  wrap.innerHTML = products.map((p) => `
     <article class="product">
       <div class="gallery">
         <img id="main-${p.id}" src="${p.images[0]}" alt="${p.name}">
