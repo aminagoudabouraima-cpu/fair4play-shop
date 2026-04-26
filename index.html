@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fair4Play | Football Jersey Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#">
+      <img src="fair4play-logo.png" alt="Fair4Play logo" />
+      <span>Fair4Play</span>
+    </a>
+    <a class="nav-btn" href="#shop">Shop now</a>
+  </header>
+
+  <section class="hero">
+    <div>
+      <p class="badge">100% positive eBay feedback ✅</p>
+      <h1>Quality football jerseys at fair prices.</h1>
+      <p class="subtitle">Shop fresh football kits, special editions and custom patch options. Sizes S–XXL. Worldwide shipping available.</p>
+      <div class="actions">
+        <a href="#shop" class="btn main">Browse Jerseys</a>
+        <a href="https://www.instagram.com/fair4playak" target="_blank" class="btn secondary">Ask a question</a>
+      </div>
+    </div>
+    <div class="logo-card">
+      <img src="fair4play-logo.png" alt="Fair4Play logo" />
+    </div>
+  </section>
+
+  <section class="trust">
+    <div>⚽ Wide selection</div>
+    <div>🪡 Custom patches & sleeves</div>
+    <div>💸 PayPal or bank transfer</div>
+    <div>🕐 24/7 customer support</div>
+  </section>
+
+  <section id="shop" class="shop">
+    <p class="badge">30€ each</p>
+    <h2>Available Jerseys</h2>
+    <div class="products" id="products"></div>
+  </section>
+
+  <section class="checkout" id="checkout">
+    <h2>Checkout</h2>
+    <div class="checkout-grid">
+      <div class="cart">
+        <h3>Your cart</h3>
+        <div id="cartItems">Your cart is empty.</div>
+        <div class="total">Total: <span id="total">0€</span></div>
+      </div>
+
+      <form id="checkoutForm">
+        <input id="name" placeholder="Full name" required />
+        <input id="email" type="email" placeholder="Email address" required />
+        <input id="address" placeholder="Street + house number" required />
+        <input id="city" placeholder="ZIP / City / Country" required />
+        <textarea id="notes" placeholder="Extra wishes: patches, player name, sleeve details..."></textarea>
+        <button type="submit" class="btn main full">Continue to PayPal</button>
+        <p class="small">After payment, DM us your order screenshot on Instagram for fast processing.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Fair4Play</p>
+    <p><a href="https://www.instagram.com/fair4playak" target="_blank">Instagram</a> · <a href="https://www.tiktok.com/@fair4playak" target="_blank">TikTok</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
